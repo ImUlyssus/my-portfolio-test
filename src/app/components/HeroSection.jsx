@@ -22,13 +22,13 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Kyaw Swar Hein",
                 1000,
-                "Web Developer",
+                "Data Engineer",
                 1000,
-                "Mobile Developer",
+                "Data Analyst",
                 1000,
-                "UI/UX Designer",
+                "Data Scientist",
                 1000,
               ]}
               wrapper="span"
@@ -36,9 +36,21 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
+          <b>
+            Skills Summary
+          </b>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+          Languages: Java, HTML/CSS, JavaScript, Flutter, SQL, Python, R
+          <br/>
+          Tools: Tableau, MySQL, Excel, Google Colab, Roboflow, Kaggle
+          <br/>
+          Frameworks: RDBMS, Panda, Matplotlib, TensorFlow, CNN, Keras, Numpy, Transformers
+          <br/>
+          Project Management: SCRUM, GitHub
+          <br/>
+          Platforms: Visual Studio Code, Kaggle, NetBeans IDE
+          <br/>
+          Soft Skills: Excellent Communication, Resource Management, Time Management, Researching, Team Player
           </p>
           <div>
             <Link
@@ -48,13 +60,13 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </Link>
+          href="/KyawSwarHein_CV.pdf"
+          className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+        >
+          <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+            Download CV
+          </span>
+        </Link>
           </div>
         </motion.div>
         <motion.div
