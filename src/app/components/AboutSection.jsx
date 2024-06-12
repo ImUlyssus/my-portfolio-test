@@ -22,7 +22,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li className="text-orange-500"><b>King Mongut's University of Technology Thonburi</b></li>
+        <li className="text-orange-500"><b>King Mongut&apos;s University of Technology Thonburi</b></li>
         <li>CGPA: 3.75/4.00</li>
         <li>Relevant Coursework: Data Structures, Machine Learning, Data Science, Data Mining, Advanced Java, Artificial Intelligence, Statistics, Web App Development, Agile Software Development</li>
       </ul>
