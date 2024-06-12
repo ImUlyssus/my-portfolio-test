@@ -9,12 +9,11 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>Languages: Python, SQL, JAVA</li>
+        <li>Frameworks: Pandas, Numpy, Scikit-Learn, Matplotlib</li>
+        <li>Tools: Excel, PowerPoint, Tableau, MySQL</li>
+        <li>Platforms: Visual Studio Code, Kaggle, NetBean IDE</li>
+        <li>Soft Skills: Excellent Communication, Resource Management, Time Management, Researching, Team Player</li>
       </ul>
     ),
   },
@@ -23,8 +22,9 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
+        <li className="text-orange-500"><b>King Mongut's University of Technology Thonburi</b></li>
+        <li>CGPA: 3.75/4.00</li>
+        <li>Relevant Coursework: Data Structures, Machine Learning, Data Science, Data Mining, Advanced Java, Artificial Intelligence, Statistics, Web App Development, Agile Software Development</li>
       </ul>
     ),
   },
@@ -53,16 +53,18 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.jpg" width={500} height={500} className="rounded-lg"/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I am a Computer Science student, who is currently studying at King
+            Mongut's University of Technology Thonburi. I have experience working
+            with Python, R, SQL, Tableau, NLP, Computer Vision, and many Machine
+            Learning Libraries. In addition, I can do data collection, data cleaning,
+            data transformation, data analysis, and data visualization tasks. I am
+            a quick learner and I am always looking to expand my knowledge and
+            skill set. I am a team player and I am excited to work with others
+            to create a better world while working with data.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

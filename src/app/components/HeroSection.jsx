@@ -16,52 +16,37 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hello, I&apos;m{" "}
-            </span>
-            <br></br>
-            <TypeAnimation
-              sequence={[
-                "Kyaw Swar Hein",
-                1000,
-                "Data Engineer",
-                1000,
-                "Data Analyst",
-                1000,
-                "Data Scientist",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            />
-          </h1>
-          <b>
-            Skills Summary
-          </b>
-          <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Languages: Java, HTML/CSS, JavaScript, Flutter, SQL, Python, R
-          <br/>
-          Tools: Tableau, MySQL, Excel, Google Colab, Roboflow, Kaggle
-          <br/>
-          Frameworks: RDBMS, Panda, Matplotlib, TensorFlow, CNN, Keras, Numpy, Transformers
-          <br/>
-          Project Management: SCRUM, GitHub
-          <br/>
-          Platforms: Visual Studio Code, Kaggle, NetBeans IDE
-          <br/>
-          Soft Skills: Excellent Communication, Resource Management, Time Management, Researching, Team Player
-          </p>
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">
+    Hello, I&apos;m{" "}
+  </span>
+  <br></br>
+  <TypeAnimation
+    sequence={[
+      "Kyaw S. Hein",
+      1000,
+      "Data Engineer",
+      1000,
+      "Data Analyst",
+      1000,
+      "Data Scientist",
+      1000,
+    ]}
+    wrapper="span"
+    speed={50}
+    repeat={Infinity}
+  />
+</h1>
+
           <div>
             <Link
               href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br  from-blue-400 to-blue-200 hover:bg-slate-200 text-black"
             >
               Hire Me
             </Link>
             <Link
           href="/KyawSwarHein_CV.pdf"
-          className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+          className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br  from-blue-400 to-blue-200 hover:bg-slate-800 text-white mt-3"
         >
           <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
             Download CV
@@ -75,7 +60,7 @@ const HeroSection = () => {
   transition={{ duration: 0.5 }}
   className="col-span-4 place-self-center mt-4 lg:mt-0"
 >
-  <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden border-4 border-pink-400">
+  <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden border-4 border-blue-400">
     <Image
       src="/images/hero-image.jpg"
       alt="hero image"
