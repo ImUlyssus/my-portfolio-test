@@ -103,6 +103,142 @@ const TAB_DATA = [
       </Carousel>
     ),
   },
+  {
+    title: "Awards",
+    id: "awards",
+    content: (
+      <Carousel showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true}>
+        <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Sixth Standard Science First Prize</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/SixthStdScienceFirstPrize.png" alt="Sixth Standard Science First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Seventh Standard All Subjects First Prize</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/SeventhStdAllSubjectsFirstPrize.png" alt="Seventh Standard All Subjects First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Ninth Standard All Subjects First Prize</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/NinthStdAllSubjectsFirstPrize.png" alt="Ninth Standard All Subjects First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b className="text-sm">Outstanding Youth of Tanintharyi Region: Rank 1/2000+ Students</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/RegionalOutstandingYouthPrize.png" alt="Outstanding Youth of Tanintharyi Region" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Best Prize in Scout</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/ScoutBestPrize.png" alt="Best Prize in Scout" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Township Level Literacy Outstanding Performance</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/Township10thStdLiteracyOutstandingPerformance.png" alt="Township Level Literacy Outstanding Performance" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Township Level All Subjects Outstanding Performance</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/TownshipAllSubjectsOutstandingPerformance.png" alt="Township Level All Subjects Outstanding Performance" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Township Level Biology First Prize</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/TownshipBiologyFirstPrize.png" alt="Township Level Biology First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Township Level Chemistry Third Prize</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/TownshipChemistryThirdPrize.png" alt="Township Level Chemistry Third Prize" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Township Level Mathematics First Prize</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/TownshipMathFirstPrize.png" alt="Township Level Mathematics First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Township Level Myanmar First Prize</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/TownshipMyanmarFirstPrize.png" alt="Township Level Myanmar First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Township Level Painting First Prize</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/TownshipPaintingFirstPrize.png" alt="Township Level Painting First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b className='text-sm'>Township Level School Activities Outstanding Performance</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/TownshipSchoolActivitiesOutstandingPerformance.png" alt="Township Level School Activities Outstanding Performance" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>First Prize: Rank 1/400+ Students</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/TUFirstTimeFirstPrize.png" alt="First Prize: Rank 1/400+ Students" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>First Prize: Rank 1/400+ Students</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/TUSecondTimeFirstPrize.png" alt="First Prize: Rank 1/400+ Students" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>First Prize: Rank 1/400+ Students</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+        <Image src="/images/awards/TUThirdTimeFirstPrize.png" alt="First Prize: Rank 1/400+ Students" layout="fill" objectFit="contain" className='rounded-lg' />
+      </div>
+    </div>
+      </Carousel>
+    ),
+  },
 ];
 
 const AboutSection = () => {
@@ -149,6 +285,12 @@ const AboutSection = () => {
               active={tab === "certifications"}
             >
               Certifications
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("awards")}
+              active={tab === "awards"}
+            >
+              Awards
             </TabButton>
           </div>
           <div className="mt-4">
