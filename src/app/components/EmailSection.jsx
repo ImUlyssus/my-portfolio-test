@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
-import LinkedinIcon from "../../../public/linkedin-icon.svg";
+import LinkedinIcon from "../../../public/linkedin-icon.png";
+import InstagramIcon from "../../../public/instagram-icon.webp";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -51,14 +52,18 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2">
-          <Link href="github.com">
-            <Image src={GithubIcon} alt="Github Icon" />
+        <div className="socials flex flex-row gap-2 mt-4">
+          <Link href="https://github.com/ImUlyssus">
+            <Image src={GithubIcon} alt="Github Icon" width={30} height={30} />
           </Link>
-          <Link href="linkedin.com">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+          <Link href="https://www.linkedin.com/in/kyaw-swar-hein-3607a02a5/">
+            <Image src={LinkedinIcon} alt="Linkedin Icon" width={30} height={30} />
+          </Link>
+          <Link href="https://www.instagram.com/ul.ksh?igsh=dHk4cm80MTdlajJl&utm_source=qr">
+            <Image src={InstagramIcon} alt="Instagram Icon" width={30} height={30} />
           </Link>
         </div>
+
       </div>
       <div>
         {emailSubmitted ? (

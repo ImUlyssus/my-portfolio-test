@@ -236,6 +236,19 @@ const TAB_DATA = [
         <Image src="/images/awards/TUThirdTimeFirstPrize.png" alt="First Prize: Rank 1/400+ Students" layout="fill" objectFit="contain" className='rounded-lg' />
       </div>
     </div>
+    <div style={{ textAlign: 'center', padding: '10px' }}>
+      <div style={{ paddingBottom: '10px' }}>
+        <b>Some Information about Awards</b>
+      </div>
+      <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+      <ul className="list-disc pl-2 mt-3">
+          <li className="mt-2">Some information is hidden due to Privacy concerns.</li>
+          <li className="mt-2">If you want to see the full document, feel free to contact me.</li>
+          <li className="mt-2">I still have many awards that I did not do notarial translation since I can no longer afford. It is quite expensive for me.</li>
+          <li className="mt-2">Thanks for your understanding.</li>
+        </ul>
+      </div>
+    </div>
       </Carousel>
     ),
   },
