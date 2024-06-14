@@ -270,15 +270,17 @@ const AboutSection = () => {
         <Image src="/images/about-image.jpg" width={500} height={500} className="rounded-lg" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg">
-            I am a Computer Science student, who is currently studying at King
-            Mongkut&apos;s University of Technology Thonburi. I have experience working
-            with Python, R, SQL, Tableau, NLP, Computer Vision, and many Machine
-            Learning Libraries. In addition, I can do data collection, data cleaning,
-            data transformation, data analysis, and data visualization tasks. I am
-            a quick learner and I am always looking to expand my knowledge and
-            skill set. I am a team player and I am excited to work with others
-            to create a better world while working with data.
+          <p className="text-sm lg:text-md">
+          I am a Computer Science student currently studying at King Mongkut&apos;s
+          University of Technology Thonburi, with a strong passion for data science
+          and machine learning. I have experience working with Python, R, SQL, Tableau,
+          NLP, Computer Vision, and various other machine learning libraries. My skills
+          include data collection, cleaning, transformation, analysis, and visualization.
+          <br />
+          I am a quick learner, always eager to expand my knowledge and skill set. As a
+          team player, I thrive in collaborative environments and am excited to work with
+          others to leverage data in creating innovative solutions. I am committed to using
+          my skills to contribute to impactful projects and make a positive difference in the world.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
