@@ -13,7 +13,7 @@ const TAB_DATA = [
       <ul className="list-disc pl-2">
         <li><span className="text-blue-400 d-flex text-lg">Languages:</span> Python, SQL, JAVA</li>
         <li><span className="text-blue-400 d-flex text-lg">Frameworks:</span> Pandas, Numpy, Scikit-Learn, Matplotlib</li>
-        <li><span className="text-blue-400 d-flex text-lg">Tools:</span> Excel, PowerPoint, Tableau, MySQL</li>
+        <li><span className="text-blue-400 d-flex text-lg">Tools:</span> Spreadsheets, PowerPoint, Tableau, MySQL</li>
         <li><span className="text-blue-400 d-flex text-lg">Platforms:</span> Visual Studio Code, Kaggle, NetBean IDE</li>
         <li><span className="text-blue-400 d-flex text-lg">Soft Skills:</span> Excellent Communication, Resource Management, Time Management, Researching, Team Player</li>
       </ul>
