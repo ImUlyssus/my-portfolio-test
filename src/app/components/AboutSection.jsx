@@ -25,7 +25,7 @@ const TAB_DATA = [
     content: (
       <>
         <b className='text-orange-500'>
-          <a href="https://www.kmutt.ac.th/" target="_blank">King Mongkut's University of Technology Thonburi</a>
+          <a href="https://www.kmutt.ac.th/" target="_blank">King Mongkut&apos;s University of Technology Thonburi</a>
         </b>
         <ul className="list-disc pl-2 mt-3">
           <li>CGPA: 3.75/4.00</li>
