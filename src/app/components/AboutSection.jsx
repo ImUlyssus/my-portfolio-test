@@ -28,83 +28,83 @@ const TAB_DATA = [
           <a href="https://www.kmutt.ac.th/" target="_blank">King Mongkut&apos;s University of Technology Thonburi</a>
         </b>
         <ul className="list-disc pl-2 mt-3">
-          <li>CGPA: 3.75/4.00</li>
+          <li>CGPA: 3.77/4.00</li>
           <li>Relevant Coursework: Data Structures, Machine Learning, Data Science, Data Mining, Advanced Java, Artificial Intelligence, Statistics, Web App Development, Agile Software Development</li>
         </ul>
       </>
     ),
   },
-  {
-    title: "Certifications",
-    id: "certifications",
-    content: (
-      <Carousel showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true}>
-        <div style={{ textAlign: 'center', padding: '10px' }}>
-          <div style={{ paddingBottom: '10px' }}>
-            <b>Computer Vision</b>
-            <a href='https://www.kaggle.com/learn/certification/kyawswarhein/computer-vision' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
-          </div>
-          <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
-            <Image src="/images/certificates/Computer_Vision.png" alt="Computer Vision" layout="fill" objectFit="contain" className='rounded-lg' />
-          </div>
-        </div>
-        <div style={{ textAlign: 'center', padding: '10px' }}>
-          <div style={{ paddingBottom: '10px' }}>
-            <b>Data Visualization</b>
-            <a href='https://www.kaggle.com/learn/certification/kyawswarhein/data-visualization' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
-          </div>
-          <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
-            <Image src="/images/certificates/Data_Visualization.png" alt="Data Visualization" layout="fill" objectFit="contain" className='rounded-lg' />
-          </div>
-        </div>
-        <div style={{ textAlign: 'center', padding: '10px' }}>
-          <div style={{ paddingBottom: '10px' }}>
-            <b>Fundamentals of Deep Learning</b>
-            <a href='https://learn.nvidia.com/certificates?id=4ac47dbf8d1a4a689d8a6f507d9a656e' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
-          </div>
-          <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
-            <Image src="/images/certificates/Fundamentals_Of_Deep_Learning.jpg" alt="Fundamentals of Deep Learning" layout="fill" objectFit="contain" className='rounded-lg' />
-          </div>
-        </div>
-        <div style={{ textAlign: 'center', padding: '10px' }}>
-          <div style={{ paddingBottom: '10px' }}>
-            <b>Geospatial Analysis</b>
-            <a href='https://www.kaggle.com/learn/certification/kyawswarhein/geospatial-analysis' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
-          </div>
-          <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
-            <Image src="/images/certificates/Geospatial_Analysis.png" alt="Geospatial Analysis" layout="fill" objectFit="contain" className='rounded-lg' />
-          </div>
-        </div>
-        <div style={{ textAlign: 'center', padding: '10px' }}>
-          <div style={{ paddingBottom: '10px' }}>
-            <b>Intro to Game AI</b>
-            <a href='https://www.kaggle.com/learn/certification/kyawswarhein/intro-to-game-ai-and-reinforcement-learning' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
-          </div>
-          <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
-            <Image src="/images/certificates/Intro_To_Game_AI.png" alt="Intro to Game AI" layout="fill" objectFit="contain" className='rounded-lg' />
-          </div>
-        </div>
-        <div style={{ textAlign: 'center', padding: '10px' }}>
-          <div style={{ paddingBottom: '10px' }}>
-            <b>Intro to Machine Learning</b>
-            <a href='https://www.kaggle.com/learn/certification/kyawswarhein/intro-to-machine-learning' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
-          </div>
-          <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
-            <Image src="/images/certificates/Intro_To_Machine_Learning.png" alt="Intro to Machine Learning" layout="fill" objectFit="contain" className='rounded-lg' />
-          </div>
-        </div>
-        <div style={{ textAlign: 'center', padding: '10px' }}>
-          <div style={{ paddingBottom: '10px' }}>
-            <b>Machine Learning Explainability</b>
-            <a href='https://www.kaggle.com/learn/certification/kyawswarhein/machine-learning-explainability' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
-          </div>
-          <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
-            <Image src="/images/certificates/Machine_Learning_Explainability.png" alt="Machine Learning Explainability" layout="fill" objectFit="contain" className='rounded-lg' />
-          </div>
-        </div>
-      </Carousel>
-    ),
-  },
+  // {
+  //   title: "Certifications",
+  //   id: "certifications",
+  //   content: (
+  //     <Carousel showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true}>
+  //       <div style={{ textAlign: 'center', padding: '10px' }}>
+  //         <div style={{ paddingBottom: '10px' }}>
+  //           <b>Computer Vision</b>
+  //           <a href='https://www.kaggle.com/learn/certification/kyawswarhein/computer-vision' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
+  //         </div>
+  //         <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+  //           <Image src="/images/certificates/Computer_Vision.png" alt="Computer Vision" layout="fill" objectFit="contain" className='rounded-lg' />
+  //         </div>
+  //       </div>
+  //       <div style={{ textAlign: 'center', padding: '10px' }}>
+  //         <div style={{ paddingBottom: '10px' }}>
+  //           <b>Data Visualization</b>
+  //           <a href='https://www.kaggle.com/learn/certification/kyawswarhein/data-visualization' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
+  //         </div>
+  //         <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+  //           <Image src="/images/certificates/Data_Visualization.png" alt="Data Visualization" layout="fill" objectFit="contain" className='rounded-lg' />
+  //         </div>
+  //       </div>
+  //       <div style={{ textAlign: 'center', padding: '10px' }}>
+  //         <div style={{ paddingBottom: '10px' }}>
+  //           <b>Fundamentals of Deep Learning</b>
+  //           <a href='https://learn.nvidia.com/certificates?id=4ac47dbf8d1a4a689d8a6f507d9a656e' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
+  //         </div>
+  //         <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+  //           <Image src="/images/certificates/Fundamentals_Of_Deep_Learning.jpg" alt="Fundamentals of Deep Learning" layout="fill" objectFit="contain" className='rounded-lg' />
+  //         </div>
+  //       </div>
+  //       <div style={{ textAlign: 'center', padding: '10px' }}>
+  //         <div style={{ paddingBottom: '10px' }}>
+  //           <b>Geospatial Analysis</b>
+  //           <a href='https://www.kaggle.com/learn/certification/kyawswarhein/geospatial-analysis' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
+  //         </div>
+  //         <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+  //           <Image src="/images/certificates/Geospatial_Analysis.png" alt="Geospatial Analysis" layout="fill" objectFit="contain" className='rounded-lg' />
+  //         </div>
+  //       </div>
+  //       <div style={{ textAlign: 'center', padding: '10px' }}>
+  //         <div style={{ paddingBottom: '10px' }}>
+  //           <b>Intro to Game AI</b>
+  //           <a href='https://www.kaggle.com/learn/certification/kyawswarhein/intro-to-game-ai-and-reinforcement-learning' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
+  //         </div>
+  //         <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+  //           <Image src="/images/certificates/Intro_To_Game_AI.png" alt="Intro to Game AI" layout="fill" objectFit="contain" className='rounded-lg' />
+  //         </div>
+  //       </div>
+  //       <div style={{ textAlign: 'center', padding: '10px' }}>
+  //         <div style={{ paddingBottom: '10px' }}>
+  //           <b>Intro to Machine Learning</b>
+  //           <a href='https://www.kaggle.com/learn/certification/kyawswarhein/intro-to-machine-learning' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
+  //         </div>
+  //         <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+  //           <Image src="/images/certificates/Intro_To_Machine_Learning.png" alt="Intro to Machine Learning" layout="fill" objectFit="contain" className='rounded-lg' />
+  //         </div>
+  //       </div>
+  //       <div style={{ textAlign: 'center', padding: '10px' }}>
+  //         <div style={{ paddingBottom: '10px' }}>
+  //           <b>Machine Learning Explainability</b>
+  //           <a href='https://www.kaggle.com/learn/certification/kyawswarhein/machine-learning-explainability' style={{ marginLeft: '10px', color: 'blue' }}>Credential</a>
+  //         </div>
+  //         <div style={{ position: 'relative', width: '100%', height: '300px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+  //           <Image src="/images/certificates/Machine_Learning_Explainability.png" alt="Machine Learning Explainability" layout="fill" objectFit="contain" className='rounded-lg' />
+  //         </div>
+  //       </div>
+  //     </Carousel>
+  //   ),
+  // },
   {
     title: "Awards",
     id: "awards",
@@ -297,12 +297,12 @@ const AboutSection = () => {
             >
               Education
             </TabButton>
-            <TabButton
+            {/* <TabButton
               selectTab={() => handleTabChange("certifications")}
               active={tab === "certifications"}
             >
               Certifications
-            </TabButton>
+            </TabButton> */}
             <TabButton
               selectTab={() => handleTabChange("awards")}
               active={tab === "awards"}
