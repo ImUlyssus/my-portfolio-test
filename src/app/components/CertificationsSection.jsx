@@ -193,7 +193,16 @@ const projectsData = [
     tag: ["Others"],
     gitUrl: "https://coursera.org/share/a6f3380066ff0d1dd5839bb757819ab0",
     previewUrl: "/",
-  }
+  },
+  {
+    id: 22,
+    title: "Prepare, Clean, Transform, and Load Data using Power BI",
+    description: "",
+    image: "/images/certificates/Data_Analytics/Power_BI.png",
+    tag: ["Data Analytics"],
+    gitUrl: "https://coursera.org/share/8f43cb8319f36648fb56dd89d37f49ce",
+    previewUrl: "/",
+  },
 ];
 
 const CertificationsSection = () => {
