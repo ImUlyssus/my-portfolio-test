@@ -203,6 +203,15 @@ const projectsData = [
     gitUrl: "https://coursera.org/share/8f43cb8319f36648fb56dd89d37f49ce",
     previewUrl: "/",
   },
+  {
+    id: 23,
+    title: "Python for Data Science, AI & Development",
+    description: "",
+    image: "/images/certificates/Data_Science/Python_for_Data_Science_AI_&_Development.png",
+    tag: ["Data Science"],
+    gitUrl: "https://coursera.org/share/7d8d73e36ed2c365541534a9802b2a61",
+    previewUrl: "/",
+  },
 ];
 
 const CertificationsSection = () => {
