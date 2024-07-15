@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useRef } from "react";
-import ProjectCard from "./ProjectCard";
+import CertificateCard from "./CertificateCard";
 import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
@@ -234,7 +234,7 @@ const CertificationsSection = () => {
 
   return (
     <section id="certifications">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold text-white mt-7 mb-4 md:mb-4">
         Certifications
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
@@ -254,7 +254,7 @@ const CertificationsSection = () => {
           isSelected={tag === "Others"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+      <ul ref={ref} className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
             key={index}
@@ -263,7 +263,7 @@ const CertificationsSection = () => {
             animate={isInView ? "animate" : "initial"}
             transition={{ duration: 0.3, delay: index * 0.4 }}
           >
-            <ProjectCard
+            <CertificateCard
               key={project.id}
               title={project.title}
               description={project.description}
