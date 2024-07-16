@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "Cyclistic Bike-Sharing System: Identifying Different Users' Behaviors",
-    description: "This is a capstone project from Google Data Analytics Course. In the project, the data analyst was assigned to answer this question: 'How do annual members and casual riders use Cyclistic bikes differently?' \n - Used MS Excel to load and preliminary analysis.   \n - Merged, preprocessed, transformed, analyzed and visualized data using Python, Numpy, and Pandas libraries. \n - Prepared Google slides for sharing stakeholders. \n - Generated helpful recommendations to meet stakeholders requirements using insights gained from data analytics process.",
+    description: "This is a capstone project from Google Data Analytics Course. In the project, the data analyst was assigned to answer this question: 'How do annual members and casual riders use Cyclistic bikes differently?' \n - Used MS Excel to load and preliminary analysis.   \n - Merged, preprocessed, transformed, analyzed and visualized data using Python, Pandas, Numpy, and Matplotlib libraries. \n - Prepared Google slides for sharing stakeholders. \n - Generated helpful recommendations to meet stakeholders requirements using insights gained from data analytics process.",
     image: "/images/projects/Data_Analytics/Cyclistic.jpg",
     tag: ["Data Analytics"],
     linkText: "See full document",
@@ -17,7 +17,7 @@ const projectsData = [
   {
     id: 2,
     title: "This is just a dummy card",
-    description: "I have several data science projects. Coming soon 😉",
+    description: "I have several data science projects. Coming soon! 😉",
     image: "/images/projects/1.png",
     tag: ["Data Science"],
     linkUrl: "/"
