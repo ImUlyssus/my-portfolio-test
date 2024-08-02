@@ -198,7 +198,7 @@ const projectsData = [
     id: 22,
     title: "Prepare, Clean, Transform, and Load Data using Power BI",
     description: "",
-    image: "/images/certificates/Data_Analytics/Power_BI.png",
+    image: "/images/certificates/Data_Analytics/Power_BI2.png",
     tag: ["Data Analytics"],
     gitUrl: "https://coursera.org/share/8f43cb8319f36648fb56dd89d37f49ce",
     previewUrl: "/",
