@@ -215,29 +215,30 @@ const TAB_DATA = [
           </div>
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
-          <div style={{ paddingBottom: '10px' }}>
-            <b>First Prize:  <br />Class Rank 1/48 | School Rank 1/400+</b>
-          </div>
-          <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
-            <Image src="/images/awards/TUFirstTimeFirstPrize.png" alt="First Prize: Rank 1/400+ Students" layout="fill" objectFit="contain" className='rounded-lg' />
-          </div>
-        </div>
-        <div style={{ textAlign: 'center', padding: '10px' }}>
-          <div style={{ paddingBottom: '10px' }}>
-            <b>First Prize: <br />Class Rank 1/47 | School Rank 1/400+</b>
-          </div>
-          <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
-            <Image src="/images/awards/TUSecondTimeFirstPrize.png" alt="First Prize: Rank 1/400+ Students" layout="fill" objectFit="contain" className='rounded-lg' />
-          </div>
-        </div>
-        <div style={{ textAlign: 'center', padding: '10px' }}>
-          <div style={{ paddingBottom: '10px' }}>
-            <b>First Prize:  <br />Class Rank 1/46 | School Rank 1/400+</b>
-          </div>
-          <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
-            <Image src="/images/awards/TUThirdTimeFirstPrize.png" alt="First Prize: Rank 1/400+ Students" layout="fill" objectFit="contain" className='rounded-lg' />
-          </div>
-        </div>
+  <div style={{ paddingBottom: '10px', fontSize: '1em', '@media(maxWidth: 600px)': { fontSize: '0.8em' } }}>
+    <b>First Prize: <br />Class Rank 1/48 | School Rank 1/400+</b>
+  </div>
+  <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+    <Image src="/images/awards/TUFirstTimeFirstPrize.png" alt="First Prize: Rank 1/400+ Students" layout="fill" objectFit="contain" className='rounded-lg' />
+  </div>
+</div>
+<div style={{ textAlign: 'center', padding: '10px' }}>
+  <div style={{ paddingBottom: '10px', fontSize: '1em', '@media(maxWidth: 600px)': { fontSize: '0.8em' } }}>
+    <b>First Prize: <br />Class Rank 1/47 | School Rank 1/400+</b>
+  </div>
+  <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+    <Image src="/images/awards/TUSecondTimeFirstPrize.png" alt="First Prize: Rank 1/400+ Students" layout="fill" objectFit="contain" className='rounded-lg' />
+  </div>
+</div>
+<div style={{ textAlign: 'center', padding: '10px' }}>
+  <div style={{ paddingBottom: '10px', fontSize: '1em', '@media(maxWidth: 600px)': { fontSize: '0.8em' } }}>
+    <b>First Prize: <br /><p>Class Rank 1/46 | School Rank 1/400+</p></b>
+  </div>
+  <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
+    <Image src="/images/awards/TUThirdTimeFirstPrize.png" alt="First Prize: Rank 1/400+ Students" layout="fill" objectFit="contain" className='rounded-lg' />
+  </div>
+</div>
+
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
             <b>Some Information about Awards</b>
