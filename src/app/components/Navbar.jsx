@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-xl md:text-3xl text-white font-semibold"
+          className="text-xl md:text-2xl lg:text-3xl text-white font-semibold"
         >
           Under Construction
         </Link>

@@ -112,7 +112,7 @@ const TAB_DATA = [
       <Carousel showThumbs={false} showStatus={false} infiniteLoop={true} autoPlay={true}>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b>Sixth Standard Science First Prize</b>
+            <b className="text-xs md:text-md">Sixth Standard Science First Prize</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/SixthStdScienceFirstPrize.png" alt="Sixth Standard Science First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -120,7 +120,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b>Seventh Standard All Subjects First Prize</b>
+            <b className="text-xs md:text-md">Seventh Standard All Subjects First Prize</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/SeventhStdAllSubjectsFirstPrize.png" alt="Seventh Standard All Subjects First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -128,7 +128,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b>Ninth Standard All Subjects First Prize</b>
+            <b className="text-xs md:text-md">Ninth Standard All Subjects First Prize</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/NinthStdAllSubjectsFirstPrize.png" alt="Ninth Standard All Subjects First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -136,7 +136,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b className="text-sm">Outstanding Youth of Tanintharyi Region: Rank 1/2000+ Students</b>
+            <b className="text-xs md:text-md">Outstanding Youth of Tanintharyi Region: <br />Rank 1/2000+ Students</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/RegionalOutstandingYouthPrize.png" alt="Outstanding Youth of Tanintharyi Region" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -144,7 +144,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b>Best Prize in Scout</b>
+            <b className="text-xs md:text-md">Best Prize in Scout</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/ScoutBestPrize.png" alt="Best Prize in Scout" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -152,7 +152,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b>Township Level Literacy Outstanding Performance</b>
+            <b className="text-xs md:text-md">Township Level Literacy Outstanding Performance</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/Township10thStdLiteracyOutstandingPerformance.png" alt="Township Level Literacy Outstanding Performance" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -160,7 +160,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b>Township Level All Subjects Outstanding Performance</b>
+            <b className="text-xs md:text-md">Township Level All Subjects Outstanding Performance</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/TownshipAllSubjectsOutstandingPerformance.png" alt="Township Level All Subjects Outstanding Performance" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -168,7 +168,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b>Township Level Biology First Prize</b>
+            <b className="text-xs md:text-md">Township Level Biology First Prize</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/TownshipBiologyFirstPrize.png" alt="Township Level Biology First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -176,7 +176,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b>Township Level Chemistry Third Prize</b>
+            <b className="text-xs md:text-md">Township Level Chemistry Third Prize</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/TownshipChemistryThirdPrize.png" alt="Township Level Chemistry Third Prize" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -184,7 +184,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b>Township Level Mathematics First Prize</b>
+            <b className="text-xs md:text-md">Township Level Mathematics First Prize</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/TownshipMathFirstPrize.png" alt="Township Level Mathematics First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -192,7 +192,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b>Township Level Myanmar First Prize</b>
+            <b className="text-xs md:text-md">Township Level Myanmar First Prize</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/TownshipMyanmarFirstPrize.png" alt="Township Level Myanmar First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -200,7 +200,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b>Township Level Painting First Prize</b>
+            <b className="text-xs md:text-md">Township Level Painting First Prize</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/TownshipPaintingFirstPrize.png" alt="Township Level Painting First Prize" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -208,7 +208,7 @@ const TAB_DATA = [
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
           <div style={{ paddingBottom: '10px' }}>
-            <b className='text-sm'>Township Level School Activities Outstanding Performance</b>
+            <b className="text-xs md:text-md">Township Level School Activities Outstanding Performance</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
             <Image src="/images/awards/TownshipSchoolActivitiesOutstandingPerformance.png" alt="Township Level School Activities Outstanding Performance" layout="fill" objectFit="contain" className='rounded-lg' />
@@ -247,7 +247,7 @@ const TAB_DATA = [
             <ul className="list-disc pl-2 mt-3">
               <li className="mt-2">Some information is hidden due to Privacy concerns.</li>
               <li className="mt-2">If you want to see the full document, feel free to contact me.</li>
-              <li className="mt-2">I still have many awards that I did not do notarial translation since I can no longer afford. It is quite expensive for me.</li>
+              <li className="mt-2">I still have many awards that I did not do notarial translation since I can no longer afford notarial translation fee.</li>
               <li className="mt-2">Thanks for your understanding.</li>
             </ul>
           </div>
@@ -278,7 +278,7 @@ const AboutSection = () => {
             University of Technology Thonburi, with a strong passion for data science
             and machine learning. I have experience working with Python, R, SQL, Tableau,
             NLP, Computer Vision, and various other machine learning libraries. My skills
-            include data collection, cleaning, transformation, analysis, and visualization.
+            include data collection, cleaning, transformation, analysis, visualization and model training.
             <br />
             I am a quick learner, always eager to expand my knowledge and skill set. As a
             team player, I thrive in collaborative environments and am excited to work with
