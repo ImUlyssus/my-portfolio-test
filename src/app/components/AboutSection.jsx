@@ -275,8 +275,8 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-sm lg:text-md">
             I am a Computer Science student currently studying at King Mongkut&apos;s
-            University of Technology Thonburi, with a strong passion for data science
-            and machine learning. I have experience working with Python, R, SQL, Tableau,
+            University of Technology Thonburi, with a strong passion for software engineering
+            and machine learning. I have experience working with ReactJS, NodeJS, Python, R, SQL, Tableau,
             NLP, Computer Vision, and various other machine learning libraries. My skills
             include data collection, cleaning, transformation, analysis, visualization and model training.
             <br />
