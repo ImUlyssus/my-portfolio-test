@@ -115,7 +115,7 @@ const TAB_DATA = [
             <b className="text-xs md:text-md">Academic Excellence Scholarship 2023</b>
           </div>
           <div style={{ position: 'relative', width: '100%', height: '400px', overflow: 'hidden', borderRadius: '0.5rem' }}>
-            <Image src="/images/awards/AcademicExcellenceScholarship2023.JPG" alt="Academic Excellence Scholarship 2023" layout="fill" objectFit="contain" className='rounded-lg' />
+            <Image src="/images/awards/AcademicExcellenceScholarship2023.jpg" alt="Academic Excellence Scholarship 2023" layout="fill" objectFit="contain" className='rounded-lg' />
           </div>
         </div>
         <div style={{ textAlign: 'center', padding: '10px' }}>
