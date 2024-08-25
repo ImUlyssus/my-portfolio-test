@@ -6,8 +6,11 @@ const ProjectTag = ({ name, onClick, isSelected }) => {
     : "text-[#ADB7BE] border-slate-600 hover:border-white";
   return (
     <button
-      className={`${buttonStyles} rounded-full border-2 px-2 md:px-3 py-3 sm:text-xs md:text-sm lg:text-xl cursor-pointer`}
+      className={`${buttonStyles} rounded-full border-2 px-4 md:px-3 py-3 sm:text-xs md:text-sm lg:text-xl cursor-pointer`}
       onClick={() => onClick(name)}
+      style={{
+        whiteSpace: "nowrap",
+      }}
     >
       {name}
     </button>
