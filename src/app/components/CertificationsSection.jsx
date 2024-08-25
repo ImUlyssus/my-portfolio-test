@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef } from "react";
 import CertificateCard from "./CertificateCard";
-import ProjectTag from "./ProjectTag";
+import CertificateTag from "./CertificateTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
@@ -234,21 +234,21 @@ const CertificationsSection = () => {
 
   return (
     <section id="certifications">
-      <h2 className="text-center text-4xl font-bold text-white mt-7 mb-4 md:mb-4">
+      <h2 className="text-center text-4xl font-bold text-white mt-7 mb-2">
         Certifications
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <ProjectTag
+        <CertificateTag
           onClick={handleTagChange}
           name="Data Analytics"
           isSelected={tag === "Data Analytics"}
         />
-        <ProjectTag
+        <CertificateTag
           onClick={handleTagChange}
           name="Data Science"
           isSelected={tag === "Data Science"}
         />
-        <ProjectTag
+        <CertificateTag
           onClick={handleTagChange}
           name="Others"
           isSelected={tag === "Others"}
