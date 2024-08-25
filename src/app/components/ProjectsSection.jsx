@@ -53,10 +53,9 @@ const ProjectsSection = () => {
         Projects
       </h2>
       <div
-        className="text-white flex flex-row justify-center items-center gap-2 py-6 overflow-x-auto whitespace-nowrap"
+        className="text-white flex flex-row justify-center items-center gap-2 py-6 overflow-x-auto whitespace-nowrap scrollbar-hide"
         style={{
-          scrollbarWidth: "none", /* For Firefox */
-          msOverflowStyle: "none",  /* For IE and Edge */
+          WebkitOverflowScrolling: "touch", // Smooth scrolling for mobile
         }}
       >
         <ProjectTag
@@ -71,7 +70,7 @@ const ProjectsSection = () => {
         />
         {/* <ProjectTag
           onClick={handleTagChange}
-          name="SE"
+          name="Software Engineering"
           isSelected={tag === "Software Engineering"}
         /> */}
       </div>
