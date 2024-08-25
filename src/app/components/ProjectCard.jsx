@@ -13,7 +13,7 @@ const ProjectCard = ({ imgUrl, title, description, links }) => {
         <div className="mt-4 md:mt-2 flex space-x-4">
           {links.map((link, index) => (
             <Link key={index} href={link.linkUrl} target="_blank" rel="noopener noreferrer">
-              <button className="border border-white text-white px-4 py-2 rounded-lg hover:bg-white hover:text-black focus:outline-none">
+              <button className="text-xs lg:text-md border border-white text-white px-4 py-2 rounded-lg hover:bg-white hover:text-black focus:outline-none">
                 {link.linkText}
               </button>
             </Link>
