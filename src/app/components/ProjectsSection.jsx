@@ -18,7 +18,7 @@ const projectsData = [
   {
     id: 2,
     title: "Hand Raising Detection System (Computer Vision)",
-    description: "In our classroom, we noticed that lecturers cannot keep up with having so many students. Sometimes, students raise hands to participate but lecturers do not notice for some reasons. Our team, therefore, decided to create a computer vision AI system that notifies lecturer when someone raises his/her hands in the classroom. \n - Collected, annotated and preprocessed 3500 images in the classroom using Roboflow. \n - Trained, evaluated and achieved 98% accuracy using Python and YoloV8 on Google Colab. \n - Developed MERN web app that connects model API from Roboflow for demonstration.",
+    description: "In our classroom, we noticed that lecturers cannot keep up with having so many students. Sometimes, students raise hands to participate but lecturers do not notice for some reasons. Our team, therefore, decided to create a computer vision AI system that notifies lecturer when someone raises his/her hands in the classroom. \n \n - Collected, annotated and preprocessed 3500 images in the classroom using Roboflow. \n - Trained, evaluated and achieved 98% accuracy using Python and YoloV8 on Google Colab. \n - Developed MERN web app that connects model API from Roboflow for demonstration.",
     image: "/images/projects/Data_Science/HandRaisingAI.jpg",
     tag: ["Data Science"],
     links: [
