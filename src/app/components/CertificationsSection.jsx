@@ -215,7 +215,7 @@ const projectsData = [
 ];
 
 const CertificationsSection = () => {
-  const [tag, setTag] = useState("Data Analytics");
+  const [tag, setTag] = useState("Data Science");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -240,13 +240,13 @@ const CertificationsSection = () => {
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <CertificateTag
           onClick={handleTagChange}
-          name="Data Analytics"
-          isSelected={tag === "Data Analytics"}
+          name="Data Science"
+          isSelected={tag === "Data Science"}
         />
         <CertificateTag
           onClick={handleTagChange}
-          name="Data Science"
-          isSelected={tag === "Data Science"}
+          name="Data Analytics"
+          isSelected={tag === "Data Analytics"}
         />
         <CertificateTag
           onClick={handleTagChange}
