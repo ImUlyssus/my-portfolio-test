@@ -40,13 +40,35 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Wismod: A Flutter Mobile App that Help Like-Minded People to Join Interesting Events",
-    description: "Our team developed this app to allow people of the same interest to network and collaborate in competitions and other events. Main features include joining events, group chat, searching and filtering events. \n - Designed and prototyped user interface using Figma, creating over 30 pages and hundreds of components. \n - Implemented a mobile application using Flutter and GetX that enables users to create or join different events. \n - Integrated Firebase for user authentication and Firestore for data storage.",
+    title: "Wismod: A Flutter Mobile App that Helps Like-Minded People to Join Interesting Events",
+    description: "\n Our team developed this app to allow people of the same interest to network and collaborate in competitions and other events. Main features include joining events, group chat, searching and filtering events. \n \n - Designed and prototyped user interface using Figma, creating over 30 pages and hundreds of components. \n - Implemented a mobile application using Flutter and GetX that enables users to create or join different events. \n - Integrated Firebase for user authentication and Firestore for data storage.",
     image: "/images/projects/SE/Wismod.jpg",
     tag: ["Software Engineering"],
     links: [
       { linkText: "View on GitHub", linkUrl: "https://github.com/khush2003/wismod" },
       { linkText: "Figma UI", linkUrl: "https://www.figma.com/design/NkVjLeaFA5njKngeFKOUGm/Untitled?node-id=0-1&t=bt9cCccrZRlPkeVZ-1" }
+      // https://www.figma.com/design/dUzBJUffSv9Jxt1pMO1y6p/WisMod?node-id=0-1
+    ]
+  },
+  {
+    id: 5,
+    title: "Sentiment Analysis: A Kaggle Project in Which I Identified 5 Sentiment Classes",
+    description: "This project was designed to enable businesses and organizations to efficiently classify customer feedback as positive or negative, helping to identify dissatisfied or satisfied customers and devise strategies for improved customer satisfaction. Two machine learning algorithms, Naive Bayes and LSTM, were employed to categorize feedback into five distinct sentiment classes: Very Negative, Negative, Neutral, Positive, and Very Positive. \n - Loaded, preprocessed, and cleaned text data through stemming, lowercasing, lemmatizing, and removing stop words and URLs by utilizing Python, Matplotlib, Pandas, and Transformers NLP libraries. \n - Tokenized and vectorized words using GloVe embeddings trained on 6 billion tokens. \n - Trained and evaluated models, achieving a 94% accuracy using Naive Bayes and LSTM, marking a 1% improvement over previous models.",
+    image: "/images/projects/Data_Science/SentimentAnalysis.jpg",
+    tag: ["Data Science"],
+    links: [
+      { linkText: "Notebook", linkUrl: "https://drive.google.com/file/d/1taTKBC3ANI_2Y0aeQdpkV87gpVnDPh_P/view?usp=sharing" }
+      // https://www.figma.com/design/dUzBJUffSv9Jxt1pMO1y6p/WisMod?node-id=0-1
+    ]
+  },
+  {
+    id: 6,
+    title: "Fresh Fruits and Rotten Fruits Classification: A Kaggle Project in Which I Identified 6 Fruit Classes",
+    description: "This project aimed to enhance students' understanding of image processing and classification through the application of deep learning using TensorFlow. Utilizing the MobileNetV2 architecture, I achieved an accuracy of 81.9%, closely approaching the highest recorded accuracy of 82%. \n - Developed a machine learning CNN (MobileNet) model on Kaggle to classify fresh and rotten fruits using a fruits dataset. \n - Trained the model and attained an accuracy of 81.9% on the classification task, nearly matching the highest score of 82%. \n - Leveraged Python, Keras, TensorFlow, Matplotlib, and Pandas libraries for EDA, image pre-processing, model training, and evaluation.",
+    image: "/images/projects/Data_Science/FreshAndRotten.jpg",
+    tag: ["Data Science"],
+    links: [
+      { linkText: "Notebook", linkUrl: "https://colab.research.google.com/drive/1ylq0oPKXYlxU075oSLyfFT_tctO3yJY_?usp=sharing" }
       // https://www.figma.com/design/dUzBJUffSv9Jxt1pMO1y6p/WisMod?node-id=0-1
     ]
   }
