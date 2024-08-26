@@ -8,7 +8,8 @@ const projectsData = [
   {
     id: 1,
     title: "Cyclistic Bike-Sharing System: Identifying Different Users' Behaviors",
-    description: "This is a capstone project from Google Data Analytics Course. In the project, the data analyst was assigned to answer this question: 'How do annual members and casual riders use Cyclistic bikes differently?' \n - Used MS Excel to load and preliminary analysis.   \n - Merged, preprocessed, transformed, analyzed and visualized 12 datasets using Python, Pandas, Numpy, and Matplotlib libraries. \n - Prepared Google slides for sharing stakeholders. \n - Generated 4 recommendations to meet stakeholders requirements using insights gained from data analytics process.",
+    description: "This is a capstone project from Google Data Analytics Course. In the project, the data analyst was assigned to answer this question: 'How do annual members and casual riders use Cyclistic bikes differently?'",
+    process: "- Used MS Excel to load and preliminary analysis.   \n - Merged, preprocessed, transformed, analyzed and visualized 12 datasets using Python, Pandas, Numpy, and Matplotlib libraries. \n - Prepared Google slides for sharing stakeholders. \n - Generated 4 recommendations to meet stakeholders requirements using insights gained from data analytics process.",
     image: "/images/projects/Data_Analytics/Cyclistic.jpg",
     tag: ["Data Analytics"],
     links: [
@@ -18,7 +19,8 @@ const projectsData = [
   {
     id: 2,
     title: "Hand Raising Detection System (Computer Vision)",
-    description: "In our classroom, we observed that lecturers often struggle to manage large student groups, leading to missed opportunities when students raise their hands to participate. To address this, our team developed a computer vision AI system that alerts lecturers when a student raises their hand. \n \n - Collected, annotated and preprocessed 3500 images in the classroom using Roboflow. \n - Trained, evaluated, and achieved 98% accuracy with Python and YOLOv8 on Google Colab. \n - Developed a MERN web app that integrates the model API from Roboflow for demonstration.",
+    description: "In our classroom, we observed that lecturers often struggle to manage large student groups, leading to missed opportunities when students raise their hands to participate. To address this, our team developed a computer vision AI system that alerts lecturers when a student raises their hand.",
+    process: "- Collected, annotated and preprocessed 3500 images in the classroom using Roboflow. \n - Trained, evaluated, and achieved 98% accuracy with Python and YOLOv8 on Google Colab. \n - Developed a MERN web app that integrates the model API from Roboflow for demonstration.",
     image: "/images/projects/Data_Science/HandRaisingAI.jpg",
     tag: ["Data Science"],
     links: [
@@ -30,7 +32,8 @@ const projectsData = [
   {
     id: 3,
     title: "Sahara: A Flutter Mobile App that Allows Users to Donate or Receive Used Items",
-    description: "This project was developed with the goal of addressing key Sustainable Development Goals (SDGs), particularly 'No Poverty' and 'Responsible Consumption and Production.' Every year, billions of tons of waste are generated, much of which could be repurposed rather than discarded. To tackle this issue, our team created an app designed to connect individuals who wish to donate gently used items with those in need. \n - Designed and prototyped user interface using Figma, creating over 40 pages and hundreds of components. \n - Developed a mobile application using Flutter and GetX that enables users to donate or receive unused items. \n - Integrated Firebase for user authentication and MySQL for data storage.",
+    description: "This project was developed with the goal of addressing key Sustainable Development Goals (SDGs), particularly 'No Poverty' and 'Responsible Consumption and Production.' Every year, billions of tons of waste are generated, much of which could be repurposed rather than discarded. To tackle this issue, our team created an app designed to connect individuals who wish to donate gently used items with those in need.",
+    process: " - Designed and prototyped user interface using Figma, creating over 40 pages and hundreds of components. \n - Developed a mobile application using Flutter and GetX that enables users to donate or receive unused items. \n - Integrated Firebase for user authentication and MySQL for data storage.",
     image: "/images/projects/SE/Sahara.jpg",
     tag: ["Software Engineering"],
     links: [
@@ -41,7 +44,8 @@ const projectsData = [
   {
     id: 4,
     title: "Wismod: A Flutter Mobile App that Helps Like-Minded People to Join Interesting Events",
-    description: "\n Our team developed this app to allow people of the same interest to network and collaborate in competitions and other events. Main features include joining events, group chat, searching and filtering events. \n \n - Designed and prototyped user interface using Figma, creating over 30 pages and hundreds of components. \n - Implemented a mobile application using Flutter and GetX that enables users to create or join different events. \n - Integrated Firebase for user authentication and Firestore for data storage.",
+    description: "Our team developed this app to allow people of the same interest to network and collaborate in competitions and other events. Main features include joining events, group chat, searching and filtering events.",
+    process: "- Designed and prototyped user interface using Figma, creating over 30 pages and hundreds of components. \n - Implemented a mobile application using Flutter and GetX that enables users to create or join different events. \n - Integrated Firebase for user authentication and Firestore for data storage.",
     image: "/images/projects/SE/Wismod.jpg",
     tag: ["Software Engineering"],
     links: [
@@ -53,7 +57,8 @@ const projectsData = [
   {
     id: 5,
     title: "Sentiment Analysis: A Kaggle Project in Which I Identified 5 Sentiment Classes",
-    description: "This project was designed to enable businesses and organizations to efficiently classify customer feedback as positive or negative, helping to identify dissatisfied or satisfied customers and devise strategies for improved customer satisfaction. Two machine learning algorithms, Naive Bayes and LSTM, were employed to categorize feedback into five distinct sentiment classes: Very Negative, Negative, Neutral, Positive, and Very Positive. \n - Loaded, preprocessed, and cleaned text data through stemming, lowercasing, lemmatizing, and removing stop words and URLs by utilizing Python, Matplotlib, Pandas, and Transformers NLP libraries. \n - Tokenized and vectorized words using GloVe embeddings trained on 6 billion tokens. \n - Trained and evaluated models, achieving a 94% accuracy using Naive Bayes and LSTM, marking a 1% improvement over previous models.",
+    description: "This project was designed to enable businesses and organizations to efficiently classify customer feedback as positive or negative, helping to identify dissatisfied or satisfied customers and devise strategies for improved customer satisfaction. Two machine learning algorithms, Naive Bayes and LSTM, were employed to categorize feedback into five distinct sentiment classes: Very Negative, Negative, Neutral, Positive, and Very Positive.",
+    process: "- Loaded, preprocessed, and cleaned text data through stemming, lowercasing, lemmatizing, and removing stop words and URLs by utilizing Python, Matplotlib, Pandas, and Transformers NLP libraries. \n - Tokenized and vectorized words using GloVe embeddings trained on 6 billion tokens. \n - Trained and evaluated models, achieving a 94% accuracy using Naive Bayes and LSTM, marking a 1% improvement over previous models.",
     image: "/images/projects/Data_Science/SentimentAnalysis.jpg",
     tag: ["Data Science"],
     links: [
@@ -64,7 +69,8 @@ const projectsData = [
   {
     id: 6,
     title: "Fresh Fruits and Rotten Fruits Classification: A Kaggle Project in Which I Identified 6 Fruit Classes",
-    description: "This project aimed to enhance students' understanding of image processing and classification through the application of deep learning using TensorFlow. Utilizing the MobileNetV2 architecture, I achieved an accuracy of 81.9%, closely approaching the highest recorded accuracy of 82%. \n - Developed a machine learning CNN (MobileNet) model on Kaggle to classify fresh and rotten fruits using a fruits dataset. \n - Trained the model and attained an accuracy of 81.9% (Private Leaderboard) on the classification task, nearly matching the highest score of 82%. \n - Leveraged Python, Keras, TensorFlow, Matplotlib, and Pandas libraries for EDA, image pre-processing, model training, and evaluation.",
+    description: "This project aimed to enhance students' understanding of image processing and classification through the application of deep learning using TensorFlow. Utilizing the MobileNetV2 architecture, I achieved an accuracy of 81.9%, closely approaching the highest recorded accuracy of 82%.",
+    process: "- Developed a machine learning CNN (MobileNet) model on Kaggle to classify fresh and rotten fruits using a fruits dataset. \n - Trained the model and attained an accuracy of 81.9% (Private Leaderboard) on the classification task, nearly matching the highest score of 82%. \n - Leveraged Python, Keras, TensorFlow, Matplotlib, and Pandas libraries for EDA, image pre-processing, model training, and evaluation.",
     image: "/images/projects/Data_Science/FreshAndRotten.jpg",
     tag: ["Data Science"],
     links: [
@@ -164,6 +170,7 @@ const ProjectsSection = () => {
                   key={project.id}
                   title={project.title}
                   description={project.description}
+                  process={project.process}
                   imgUrl={project.image}
                   links={project.links}
                 />
