@@ -64,7 +64,7 @@ const projectsData = [
   {
     id: 6,
     title: "Fresh Fruits and Rotten Fruits Classification: A Kaggle Project in Which I Identified 6 Fruit Classes",
-    description: "This project aimed to enhance students' understanding of image processing and classification through the application of deep learning using TensorFlow. Utilizing the MobileNetV2 architecture, I achieved an accuracy of 81.9%, closely approaching the highest recorded accuracy of 82%. \n - Developed a machine learning CNN (MobileNet) model on Kaggle to classify fresh and rotten fruits using a fruits dataset. \n - Trained the model and attained an accuracy of 81.9% on the classification task, nearly matching the highest score of 82%. \n - Leveraged Python, Keras, TensorFlow, Matplotlib, and Pandas libraries for EDA, image pre-processing, model training, and evaluation.",
+    description: "This project aimed to enhance students' understanding of image processing and classification through the application of deep learning using TensorFlow. Utilizing the MobileNetV2 architecture, I achieved an accuracy of 81.9%, closely approaching the highest recorded accuracy of 82%. \n - Developed a machine learning CNN (MobileNet) model on Kaggle to classify fresh and rotten fruits using a fruits dataset. \n - Trained the model and attained an accuracy of 81.9% (Private Leaderboard) on the classification task, nearly matching the highest score of 82%. \n - Leveraged Python, Keras, TensorFlow, Matplotlib, and Pandas libraries for EDA, image pre-processing, model training, and evaluation.",
     image: "/images/projects/Data_Science/FreshAndRotten.jpg",
     tag: ["Data Science"],
     links: [
