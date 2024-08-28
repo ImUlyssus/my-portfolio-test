@@ -33,7 +33,7 @@ const projectsData = [
     id: 3,
     title: "Sahara: A Flutter Mobile App that Allows Users to Donate or Receive Used Items",
     description: "This project was developed with the goal of addressing key Sustainable Development Goals (SDGs), particularly 'No Poverty' and 'Responsible Consumption and Production.' Every year, billions of tons of waste are generated, much of which could be repurposed rather than discarded. To tackle this issue, our team created an app designed to connect individuals who wish to donate gently used items with those in need.",
-    process: " - Designed and prototyped user interface using Figma, creating over 40 pages and hundreds of components. \n - Developed a mobile application using Flutter and GetX that enables users to donate or receive unused items. \n - Integrated Firebase for user authentication and MySQL for data storage.",
+    process: " - Designed and prototyped user interface using Figma, creating over 40 pages and hundreds of components. \n - Developed a mobile application using Flutter and GetX that enables users to donate or receive gently used items. \n - Integrated Firebase for user authentication and MySQL for data storage.",
     image: "/images/projects/SE/Sahara.jpg",
     tag: ["Software Engineering"],
     links: [
