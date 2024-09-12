@@ -35,7 +35,7 @@ const Navbar = () => {
           href={"/"}
           className="text-xl md:text-2xl lg:text-3xl text-white font-semibold"
         >
-          Under Construction
+          ULYSSUS
         </Link>
         {/* <Link href="https://www.instagram.com/ul.ksh?igsh=dHk4cm80MTdlajJl&utm_source=qr">
             <Image src={'/images/matcha_latte.png'} alt="I love matcha latte" width={65} height={65} />
