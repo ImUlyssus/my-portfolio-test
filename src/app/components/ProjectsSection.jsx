@@ -5,19 +5,9 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
+  
   {
     id: 1,
-    title: "Cyclistic Bike-Sharing System: Identifying Different Users' Behaviors",
-    description: "This is a capstone project from Google Data Analytics Course. In the project, the data analyst was assigned to answer this question: 'How do annual members and casual riders use Cyclistic bikes differently?'",
-    process: "- Used MS Excel to load and preliminary analysis.   \n - Merged, preprocessed, transformed, analyzed and visualized 12 datasets using Python, Pandas, Numpy, and Matplotlib libraries. \n - Prepared Google slides for sharing stakeholders. \n - Generated 4 recommendations to meet stakeholders requirements using insights gained from data analytics process.",
-    image: "/images/projects/Data_Analytics/Cyclistic.jpg",
-    tag: ["Data Analytics"],
-    links: [
-      { linkText: "See full document", linkUrl: "https://docs.google.com/document/d/16xrq4ZwgZbPqy3sEJ86U592jy5cu-pzDQXahd2XSFyI/edit?usp=sharing" }
-    ]
-  },
-  {
-    id: 2,
     title: "Hand Raising Detection System (Computer Vision)",
     description: "In our classroom, we observed that lecturers often struggle to manage large student groups, leading to missed opportunities when students raise their hands to participate. To address this, our team developed a computer vision AI system that alerts lecturers when a student raises their hand.",
     process: "- Collected, annotated and preprocessed 3500 images in the classroom using Roboflow. \n - Trained, evaluated, and achieved 98% accuracy with Python and YOLOv8 on Google Colab. \n - Developed a MERN web app that integrates the model API from Roboflow for demonstration.",
@@ -27,6 +17,17 @@ const projectsData = [
       { linkText: "Live Demo", linkUrl: "https://youtu.be/UIZwZPt22dI?si=NXPO7-u2u4FmRaez" },
       { linkText: "View on GitHub", linkUrl: "https://github.com/ImUlyssus/handraising-detection-ai-project" },
       { linkText: "Notebook", linkUrl: "https://colab.research.google.com/drive/1d2EeIDaEtdiOssO-NWBBX9SfIToVVcFH?usp=sharing" }
+    ]
+  },
+  {
+    id: 2,
+    title: "Cyclistic Bike-Sharing System: Identifying Different Users' Behaviors",
+    description: "This is a capstone project from Google Data Analytics Course. In the project, the data analyst was assigned to answer this question: 'How do annual members and casual riders use Cyclistic bikes differently?'",
+    process: "- Used MS Excel to load and preliminary analysis.   \n - Merged, preprocessed, transformed, analyzed and visualized 12 datasets using Python, Pandas, Numpy, and Matplotlib libraries. \n - Prepared Google slides for sharing stakeholders. \n - Generated 4 recommendations to meet stakeholders requirements using insights gained from data analytics process.",
+    image: "/images/projects/Data_Analytics/Cyclistic.jpg",
+    tag: ["Data Analytics"],
+    links: [
+      { linkText: "See full document", linkUrl: "https://docs.google.com/document/d/16xrq4ZwgZbPqy3sEJ86U592jy5cu-pzDQXahd2XSFyI/edit?usp=sharing" }
     ]
   },
   {
@@ -77,24 +78,26 @@ const projectsData = [
       { linkText: "Notebook", linkUrl: "https://colab.research.google.com/drive/1ylq0oPKXYlxU075oSLyfFT_tctO3yJY_?usp=sharing" }
       // https://www.figma.com/design/dUzBJUffSv9Jxt1pMO1y6p/WisMod?node-id=0-1
     ]
+  },
+  {
+    id: 7,
+    title: "A Secret Project that I have been working on",
+    description: "There is not much information I can provide for this project except its architecture. This project was developed using ReactJS, NodeJS, NodeMailer, MySQL, Access and Refresh Token System for user authentication and authorization.",
+    process: "- Developed a web app, where users can create account, update user information, generate tickets, and authentication and authorization using access and refresh token concept. \n - Created more than 20 pages, and wrote more than 10,000 lines of code in React and NodeJS. \n - Implemented more than 50 API endpoints on NodeJS server to access 9 tables efficiently. \n - Deployed on Cloud using Nginx for client side and PM2 for server side.",
+    image: "/images/projects/SE/Fullstack.jpg",
+    tag: ["Software Engineering"],
+    links: [
+      { linkText: "Frontend GitHub", linkUrl: "https://github.com/ImUlyssus/secret-project-client" },
+      { linkText: "Backend GitHub", linkUrl: "https://github.com/ImUlyssus/secret-project-server" }
+    ]
   }
 ];
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("Data Science");
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0); // State to keep track of the current project index
 
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
-  
-  const handleTagChange = (newTag) => {
-    setTag(newTag);
-    setCurrentProjectIndex(0); // Reset to the first project of the selected tag
-  };
-
-  const filteredProjects = projectsData.filter((project) =>
-    project.tag.includes(tag)
-  );
 
   const handleNavigationClick = (index) => {
     setCurrentProjectIndex(index);
@@ -110,32 +113,10 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-2">
         Projects
       </h2>
-      <div
-        className="text-white flex flex-row md:justify-center md:items-center justify-start items-start gap-2 py-3 overflow-x-auto whitespace-nowrap scrollbar-hide"
-        style={{
-          WebkitOverflowScrolling: "touch",
-        }}
-      >
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Data Science"
-          isSelected={tag === "Data Science"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Data Analytics"
-          isSelected={tag === "Data Analytics"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Software Engineering"
-          isSelected={tag === "Software Engineering"}
-        />
-      </div>
-      
+
       {/* Navigation Icons */}
       <div className="flex justify-center mb-4">
-        {filteredProjects.map((_, index) => (
+        {projectsData.map((_, index) => (
           <button
             key={index}
             onClick={() => handleNavigationClick(index)}
@@ -156,7 +137,7 @@ const ProjectsSection = () => {
           ref={ref}
           className="flex flex-row gap-4 justify-center"
         >
-          {filteredProjects.map((project, index) => (
+          {projectsData.map((project, index) => (
             index === currentProjectIndex && ( // Only show the current project
               <motion.div
                 key={index}
@@ -184,3 +165,107 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
+// const ProjectsSection = () => {
+//   const [tag, setTag] = useState("Data Science");
+//   const [currentProjectIndex, setCurrentProjectIndex] = useState(0); // State to keep track of the current project index
+
+//   const ref = useRef(null);
+//   const isInView = useInView(ref, { once: true });
+  
+//   const handleTagChange = (newTag) => {
+//     setTag(newTag);
+//     setCurrentProjectIndex(0); // Reset to the first project of the selected tag
+//   };
+
+//   const filteredProjects = projectsData.filter((project) =>
+//     project.tag.includes(tag)
+//   );
+
+//   const handleNavigationClick = (index) => {
+//     setCurrentProjectIndex(index);
+//   };
+
+//   const cardVariants = {
+//     initial: { x: 50, opacity: 0 },
+//     animate: { x: 0, opacity: 1 },
+//   };
+
+//   return (
+//     <section id="projects">
+//       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-2">
+//         Projects
+//       </h2>
+//       <div
+//         className="text-white flex flex-row md:justify-center md:items-center justify-start items-start gap-2 py-3 overflow-x-auto whitespace-nowrap scrollbar-hide"
+//         style={{
+//           WebkitOverflowScrolling: "touch",
+//         }}
+//       >
+//         <ProjectTag
+//           onClick={handleTagChange}
+//           name="Data Science"
+//           isSelected={tag === "Data Science"}
+//         />
+//         <ProjectTag
+//           onClick={handleTagChange}
+//           name="Data Analytics"
+//           isSelected={tag === "Data Analytics"}
+//         />
+//         <ProjectTag
+//           onClick={handleTagChange}
+//           name="Software Engineering"
+//           isSelected={tag === "Software Engineering"}
+//         />
+//       </div>
+      
+//       {/* Navigation Icons */}
+//       <div className="flex justify-center mb-4">
+//         {filteredProjects.map((_, index) => (
+//           <button
+//             key={index}
+//             onClick={() => handleNavigationClick(index)}
+//             className={`md:text-md text-xs px-3 py-1 mx-1 rounded-full ${
+//               currentProjectIndex === index
+//                 ? "bg-white text-black"
+//                 : "bg-gray-400 text-white"
+//             }`}
+//           >
+//             {index + 1}
+//           </button>
+//         ))}
+//       </div>
+
+//       <div className="relative">
+//         <div
+//           id="slider"
+//           ref={ref}
+//           className="flex flex-row gap-4 justify-center"
+//         >
+//           {filteredProjects.map((project, index) => (
+//             index === currentProjectIndex && ( // Only show the current project
+//               <motion.div
+//                 key={index}
+//                 variants={cardVariants}
+//                 initial="initial"
+//                 animate={isInView ? "animate" : "initial"}
+//                 transition={{ duration: 0.3 }}
+//                 className="min-w-[80vw]" // Set the width of each card
+//               >
+//                 <ProjectCard
+//                   key={project.id}
+//                   title={project.title}
+//                   description={project.description}
+//                   process={project.process}
+//                   imgUrl={project.image}
+//                   links={project.links}
+//                 />
+//               </motion.div>
+//             )
+//           ))}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default ProjectsSection;
