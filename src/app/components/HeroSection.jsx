@@ -42,12 +42,13 @@ const HeroSection = () => {
           </h1>
 
           <div>
-            <Link
-              href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br  from-blue-400 to-blue-200 hover:bg-slate-200 text-black"
-            >
-              Hire Me
-            </Link>
+          <Link
+  href="/#contact"
+  className="px-6 py-3 min-w-[160px] rounded-full bg-gradient-to-br from-blue-400 to-blue-200 hover:bg-slate-200 text-black inline-block text-center"
+>
+  Hire Me
+</Link>
+
             {/* <Link
               href="/KyawSwarHein_CV.pdf"
               target="_blank"
