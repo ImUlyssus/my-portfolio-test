@@ -50,7 +50,7 @@ const projectsData = [
     image: "/images/projects/SE/Wismod.jpg",
     tag: ["Software Engineering"],
     links: [
-      { linkText: "View on GitHub", linkUrl: "https://github.com/khush2003/wismod" },
+      { linkText: "View on GitHub", linkUrl: "https://github.com/ImUlyssus/wismod" },
       { linkText: "Figma UI", linkUrl: "https://www.figma.com/design/NkVjLeaFA5njKngeFKOUGm/Untitled?node-id=0-1&t=bt9cCccrZRlPkeVZ-1" }
       // https://www.figma.com/design/dUzBJUffSv9Jxt1pMO1y6p/WisMod?node-id=0-1
     ]
