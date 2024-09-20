@@ -212,6 +212,24 @@ const projectsData = [
     gitUrl: "https://coursera.org/share/7d8d73e36ed2c365541534a9802b2a61",
     previewUrl: "/",
   },
+  {
+    id: 24,
+    title: "Functional Programming Principles in Scala",
+    description: "",
+    image: "/images/certificates/Data_Science/Functional_Programming_Principles_in_Scala.png",
+    tag: ["Data Science"],
+    gitUrl: "https://coursera.org/share/b2090e974a1a713c27f27021caf9c52c",
+    previewUrl: "/",
+  },
+  {
+    id: 25,
+    title: "Databases and SQL for Data Science with Python",
+    description: "",
+    image: "/images/certificates/Data_Science/Databases_and_SQL.png",
+    tag: ["Data Science"],
+    gitUrl: "https://coursera.org/share/bd5587b941c15937c1fc6d6cf70bd1c0",
+    previewUrl: "/",
+  },
 ];
 
 const CertificationsSection = () => {
