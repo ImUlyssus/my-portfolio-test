@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import GithubIcon from "../../../public/github-icon.svg";
 import LinkedinIcon from "../../../public/linkedin-icon.png";
 import InstagramIcon from "../../../public/instagram-icon.webp";
+import KaggleIcon from "../../../public/Kaggle.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -59,8 +60,8 @@ const EmailSection = () => {
           <Link href="https://www.linkedin.com/in/kyaw-swar-hein-3607a02a5/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" width={30} height={30} />
           </Link>
-          <Link href="https://www.instagram.com/ul.ksh?igsh=dHk4cm80MTdlajJl&utm_source=qr">
-            <Image src={InstagramIcon} alt="Instagram Icon" width={30} height={30} />
+          <Link href="https://www.kaggle.com/kyawswarhein">
+            <Image src={KaggleIcon} alt="Kaggle Icon" width={30} height={30} />
           </Link>
         </div>
 
