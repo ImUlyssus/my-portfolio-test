@@ -61,7 +61,7 @@ const EmailSection = () => {
             <Image src={LinkedinIcon} alt="Linkedin Icon" width={30} height={30} />
           </Link>
           <Link href="https://www.kaggle.com/kyawswarhein">
-            <Image src={KaggleIcon} alt="Kaggle Icon" width={30} height={30} />
+            <Image src={KaggleIcon} alt="Kaggle Icon" width={30} height={30} style={{borderRadius: "8px"}}/>
           </Link>
         </div>
 
