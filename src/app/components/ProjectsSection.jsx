@@ -21,6 +21,18 @@ const projectsData = [
   },
   {
     id: 2,
+    title: "Retrieval Augmented Generation (RAG) for Businesses and Organizations",
+    description: "Customer service plays a pivotal role in determining customer satisfaction, loyalty, and overall business success. With the advent of digital technologies, the demand for immediate and accurate responses to customer inquiries has increased significantly. Traditional customer service models, often reliant on human representatives and static knowledge bases, struggle to meet the growing expectations of real-time, context-aware support. RAG offers a transformative approach to addressing these limitations. By combining the generative power of large language models (LLMs) with real-time data retrieval, this system can provide intelligent, contextually relevant responses.",
+    process: "- Built a vector database with text-embedding-004 model using Pinecone vector database. \n - Integrated LLM Gemini API for structuring the retrieved contents from vector database. \n - Developed a NextJs web app that acts as an AI agent that allows users to query information about the businesses.",
+    image: "/images/projects/Data_Science/AIChatbot.jpg",
+    tag: ["Data Science"],
+    links: [
+      { linkText: "Live Demo", linkUrl: "https://youtu.be/Ke9aAl--wxE?si=JBKj8LlXfxQiP-K9" },
+      { linkText: "View on GitHub", linkUrl: "https://github.com/ImUlyssus/askmeabc-rag-complete/tree/dev" }
+    ]
+  },
+  {
+    id: 3,
     title: "Cyclistic Bike-Sharing System: Identifying Different Users' Behaviors",
     description: "This is a capstone project from Google Data Analytics Course. In the project, the data analyst was assigned to answer this question: 'How do annual members and casual riders use Cyclistic bikes differently?'",
     process: "- Used MS Excel to load and preliminary analysis.   \n - Merged, preprocessed, transformed, analyzed and visualized 12 datasets using Python, Pandas, Numpy, and Matplotlib libraries. \n - Prepared Google slides for sharing stakeholders. \n - Generated 4 recommendations to meet stakeholders requirements using insights gained from data analytics process.",
@@ -31,7 +43,7 @@ const projectsData = [
     ]
   },
   {
-    id: 3,
+    id: 4,
     title: "Sahara: A Flutter Mobile App that Allows Users to Donate or Receive Used Items",
     description: "This project was developed with the goal of addressing key Sustainable Development Goals (SDGs), particularly 'No Poverty' and 'Responsible Consumption and Production.' Every year, billions of tons of waste are generated, much of which could be repurposed rather than discarded. To tackle this issue, our team created an app designed to connect individuals who wish to donate gently used items with those in need.",
     process: " - Designed and prototyped user interface using Figma, creating over 40 pages and hundreds of components. \n - Developed a mobile application using Flutter and GetX that enables users to donate or receive gently used items. \n - Integrated Firebase for user authentication and MySQL for data storage.",
@@ -43,7 +55,7 @@ const projectsData = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     title: "Wismod: A Flutter Mobile App that Helps Like-Minded People to Join Interesting Events",
     description: "Our team developed this app to allow people of the same interest to network and collaborate in competitions and other events. Main features include joining events, group chat, searching and filtering events.",
     process: "- Designed and prototyped user interface using Figma, creating over 30 pages and hundreds of components. \n - Implemented a mobile application using Flutter and GetX that enables users to create or join different events. \n - Integrated Firebase for user authentication and Firestore for data storage.",
@@ -56,7 +68,7 @@ const projectsData = [
     ]
   },
   {
-    id: 5,
+    id: 6,
     title: "Sentiment Analysis: A Kaggle Project in Which I Identified 5 Sentiment Classes",
     description: "This project was designed to enable businesses and organizations to efficiently classify customer feedback as positive or negative, helping to identify dissatisfied or satisfied customers and devise strategies for improved customer satisfaction. Two machine learning algorithms, Naive Bayes and LSTM, were employed to categorize feedback into five distinct sentiment classes: Very Negative, Negative, Neutral, Positive, and Very Positive.",
     process: "- Loaded, preprocessed, and cleaned text data through stemming, lowercasing, lemmatizing, and removing stop words and URLs by utilizing Python, Matplotlib, Pandas, and Transformers NLP libraries. \n - Tokenized and vectorized words using GloVe embeddings trained on 6 billion tokens. \n - Trained and evaluated models, achieving a 94% accuracy using Naive Bayes and LSTM, marking a 1% improvement over previous models.",
@@ -68,7 +80,7 @@ const projectsData = [
     ]
   },
   {
-    id: 6,
+    id: 7,
     title: "Fresh Fruits and Rotten Fruits Classification: A Kaggle Project in Which I Identified 6 Fruit Classes",
     description: "This project aimed to enhance students' understanding of image processing and classification through the application of deep learning using TensorFlow. Utilizing the MobileNetV2 architecture, I achieved an accuracy of 81.9%, closely approaching the highest recorded accuracy of 82%.",
     process: "- Developed a machine learning CNN (MobileNet) model on Kaggle to classify fresh and rotten fruits using a fruits dataset. \n - Trained the model and attained an accuracy of 81.9% (Private Leaderboard) on the classification task, nearly matching the highest score of 82%. \n - Leveraged Python, Keras, TensorFlow, Matplotlib, and Pandas libraries for EDA, image pre-processing, model training, and evaluation.",
@@ -80,7 +92,7 @@ const projectsData = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     title: "A Secret Project that I have been working on",
     description: "There is not much information I can provide for this project except its architecture. This project was developed using ReactJS, NodeJS, NodeMailer, MySQL, Access and Refresh Token System for user authentication and authorization.",
     process: "- Developed a web app, where users can create account, update user information, generate tickets, and authentication and authorization using access and refresh token concept. \n - Created more than 20 pages, and wrote more than 10,000 lines of code in React and NodeJS. \n - Implemented more than 50 API endpoints on NodeJS server to access 9 tables efficiently. \n - Deployed on Cloud using Nginx for client side and PM2 for server side.",
@@ -90,7 +102,7 @@ const projectsData = [
       { linkText: "Frontend GitHub", linkUrl: "https://github.com/ImUlyssus/secret-project-client" },
       { linkText: "Backend GitHub", linkUrl: "https://github.com/ImUlyssus/secret-project-server" }
     ]
-  }
+  },
 ];
 
 const ProjectsSection = () => {
